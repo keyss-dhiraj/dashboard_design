@@ -171,7 +171,7 @@ class MidBody extends StatelessWidget {
                         Text(" Full Charged "),
                       ],
                     ),
-                    SizedBox(height: 10),
+                    SizedBox(height: 9),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
