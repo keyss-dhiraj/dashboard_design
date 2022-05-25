@@ -168,7 +168,7 @@ class MidBody extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Icon(Icons.circle,size: 15,color: Colors.green),
-                        Text(" Full Charged "),
+                        Text(" Full Charged Ankit"),
                       ],
                     ),
                     SizedBox(height: 10),
