@@ -176,7 +176,7 @@ class MidBody extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Icon(Icons.circle,size: 15,color: Colors.green),
-                        Text(" <70% Cherged ",),
+                        Text(" <70% Cherged "),
                       ],
                     ),
                     SizedBox(height: 10),
