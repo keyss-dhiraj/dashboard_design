@@ -9,6 +9,8 @@ class SideMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
+      height: MediaQuery.of(context).size.height,
+      width: MediaQuery.of(context).size.width*0.15,
       child: Drawer(
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -20,7 +22,7 @@ class SideMenu extends StatelessWidget {
                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    height: 100,
+                    height: MediaQuery.of(context).size.height*0.15,
                     child: DrawerHeader(child: Image.asset("assets/images/logo.png",height: 100,width: 100,
 
                     ),
@@ -28,12 +30,7 @@ class SideMenu extends StatelessWidget {
                     ),
                   ),
 
-                  Container(
-                    padding: EdgeInsets.only(right: 20),
-                    height: 30,
-                    width: 30,
-                    color: Colors.green,
-                  ),
+
                 ],
               ),
             ),

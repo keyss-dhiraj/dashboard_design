@@ -11,8 +11,8 @@ class BottomCode extends StatelessWidget {
       children: [
         Container(
           padding: EdgeInsets.all(10),
-          height: 180,
-          width: 800,
+          height: MediaQuery.of(context).size.height*0.26,
+          width: MediaQuery.of(context).size.width*0.51,
           color: Colors.white,
           child:
           Column(
@@ -40,13 +40,13 @@ class BottomCode extends StatelessWidget {
                 ],
               ),
               Container(
-                height: 130,
-                width: 800,
+                height: MediaQuery.of(context).size.height*0.18,
+                width: MediaQuery.of(context).size.width*0.20,
                 padding: EdgeInsets.all(10),
 
                 child: Image(image: AssetImage('assets/images/linegraph.png'),
-                height: 50,
-                width: 800,
+                  height: MediaQuery.of(context).size.height*0.18,
+                  width: MediaQuery.of(context).size.width*0.20,
                 ),
 
 
@@ -60,8 +60,8 @@ class BottomCode extends StatelessWidget {
         ),
         Container(
           padding: EdgeInsets.only(top: 10),
-          height: 180,
-          width: 360,
+          height: MediaQuery.of(context).size.height*0.26,
+          width: MediaQuery.of(context).size.width*0.235,
           color: Colors.white,
           child:
           Column(
@@ -76,8 +76,8 @@ class BottomCode extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 130,
-                width: 310,
+                height: MediaQuery.of(context).size.height*0.18,
+                width: MediaQuery.of(context).size.width*0.20,
                 color: Colors.tealAccent,
                 child: Center(
                   child: Text("Complain \nFor Future",

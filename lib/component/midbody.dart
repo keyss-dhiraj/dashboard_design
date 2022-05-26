@@ -11,8 +11,8 @@ class MidBody extends StatelessWidget {
       children: [
 
         Container(
-          height: 120,
-          width: 800,
+          height: MediaQuery.of(context).size.height*0.18,
+          width: MediaQuery.of(context).size.width*0.51,
           padding: EdgeInsets.all(10),
           color: Colors.white,
           child: Column(
@@ -31,9 +31,9 @@ class MidBody extends StatelessWidget {
                 ],
               ),
             Container(
-              height: 70,
-              width: 800,
-              // color: Colors.greenAccent,
+              height: MediaQuery.of(context).size.height*0.10,
+              width: MediaQuery.of(context).size.width*0.50,
+               //color: Colors.greenAccent,
 
               child: Stack(
                 children: [
@@ -41,8 +41,8 @@ class MidBody extends StatelessWidget {
                     top:20,
                       left: 20,
                       child: Container(
-                        width: 350,
-                        height: 35,
+                        width: MediaQuery.of(context).size.width*0.45,
+                        height: MediaQuery.of(context).size.height*0.05,
 
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
@@ -62,8 +62,8 @@ class MidBody extends StatelessWidget {
                       top:20,
                       left: 350,
                       child: Container(
-                        width: 250,
-                        height: 35,
+                        width: MediaQuery.of(context).size.width*0.23,
+                        height: MediaQuery.of(context).size.height*0.05,
 
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
@@ -83,8 +83,8 @@ class MidBody extends StatelessWidget {
                       top:20,
                       left: 580,
                       child: Container(
-                        width: 150,
-                        height: 35,
+                        width: MediaQuery.of(context).size.width*0.10,
+                        height: MediaQuery.of(context).size.height*0.05,
 
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
@@ -105,8 +105,8 @@ class MidBody extends StatelessWidget {
                       top:30,
                       left: 342,
                       child: Container(
-                        height: 15,
-                        width: 15,
+                        height: MediaQuery.of(context).size.height*0.022,
+                        width: MediaQuery.of(context).size.height*0.022,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.white,
@@ -120,8 +120,8 @@ class MidBody extends StatelessWidget {
                       top:30,
                       left: 572,
                       child: Container(
-                        height: 15,
-                        width: 15,
+                        height: MediaQuery.of(context).size.height*0.022,
+                        width: MediaQuery.of(context).size.height*0.022,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.white,
@@ -149,8 +149,8 @@ class MidBody extends StatelessWidget {
         ),
         SizedBox(width: 20),
         Container(
-          height: 120,
-          width: 360,
+          height: MediaQuery.of(context).size.height*0.25,
+          width: MediaQuery.of(context).size.width*0.235,
           color: Colors.white,
           padding: EdgeInsets.all(10),
           child: Row(
@@ -196,8 +196,9 @@ class MidBody extends StatelessWidget {
               ),
 
               Container(
-                height: 200,
-                width: 145,
+                height: MediaQuery.of(context).size.height*0.25,
+                width: MediaQuery.of(context).size.width*0.08,
+                  //color: Colors.blueGrey,
 
                   alignment: Alignment.topCenter,
                   margin: EdgeInsets.only(top: 5),
@@ -207,9 +208,10 @@ class MidBody extends StatelessWidget {
                       Positioned(
                         top:0,
                         left: 20,
-                        child: SizedBox(
-                          height: 90.0,
-                          width: 90.0,
+                        child: Container(
+                          height: MediaQuery.of(context).size.height*0.135,
+                          width: MediaQuery.of(context).size.height*0.135,
+                          //color: Colors.white,
                           child: CircularProgressIndicator(
 
                             value: 1,
@@ -224,9 +226,9 @@ class MidBody extends StatelessWidget {
                       Positioned(
                         top:0,
                         left: 20,
-                        child: SizedBox(
-                          height: 90.0,
-                          width: 90.0,
+                        child: Container(
+                          height: MediaQuery.of(context).size.height*0.135,
+                          width: MediaQuery.of(context).size.height*0.135,
                           child: CircularProgressIndicator(
 
                             value: 0.75,
@@ -239,9 +241,9 @@ class MidBody extends StatelessWidget {
                       Positioned(
                         top:0,
                         left: 20,
-                        child: SizedBox(
-                          height: 90.0,
-                          width: 90.0,
+                        child: Container(
+                          height: MediaQuery.of(context).size.height*0.135,
+                          width: MediaQuery.of(context).size.height*0.135,
                           child: CircularProgressIndicator(
 
                             value: 0.25,
@@ -255,8 +257,8 @@ class MidBody extends StatelessWidget {
                           top:80,
                           left: 60,
                           child: Container(
-                            height: 15,
-                            width: 15,
+                            height: MediaQuery.of(context).size.height*0.022,
+                            width: MediaQuery.of(context).size.height*0.022,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               color: Colors.white,
@@ -270,8 +272,8 @@ class MidBody extends StatelessWidget {
                           top:11,
                           left: 92,
                           child: Container(
-                            height: 15,
-                            width: 15,
+                            height: MediaQuery.of(context).size.height*0.022,
+                            width: MediaQuery.of(context).size.height*0.022,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               color: Colors.white,
@@ -285,8 +287,8 @@ class MidBody extends StatelessWidget {
                           top:11,
                           left: 22,
                           child: Container(
-                            height: 15,
-                            width: 15,
+                            height: MediaQuery.of(context).size.height*0.022,
+                            width: MediaQuery.of(context).size.height*0.022,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               color: Colors.white,

@@ -16,8 +16,9 @@ class DashboardScreen extends StatelessWidget {
           SingleChildScrollView(
             padding: EdgeInsets.only(top: 20,bottom: 20),
             child: Container(
-              height: 60,
-              width: 1130,
+              padding: EdgeInsets.only(right: 80),
+              height: MediaQuery.of(context).size.height*0.10,
+              width: MediaQuery.of(context).size.width,
               //color: Colors.green,
               child: Column(
                 children: [
@@ -30,26 +31,26 @@ class DashboardScreen extends StatelessWidget {
                 )
                  ),
                   Container(
-                    height: 180,
-                    width: 1400,
+                    height: MediaQuery.of(context).size.height*0.27,
+                    width: MediaQuery.of(context).size.width,
                     //color: Colors.yellow,
                     child: DashboardCenter(),
                ),
               SizedBox(height: 20,),
               Container(
                 padding: EdgeInsets.only(left: 40,right: 80),
-                height: 120,
-                width: 1400,
+                height: MediaQuery.of(context).size.height*0.18,
+                width: MediaQuery.of(context).size.width,
                 //color: Colors.red,
                 child: MidBody(),
               ),
               SizedBox(
-                height: 30,
+                height: 10,
               ),
               Container(
                 padding: EdgeInsets.only(left: 40,right: 80),
-                height: 180,
-                width: 1400,
+                height: MediaQuery.of(context).size.height*0.30,
+                width: MediaQuery.of(context).size.width,
                 //color: Colors.lightBlueAccent,
                 child: BottomCode(),
 

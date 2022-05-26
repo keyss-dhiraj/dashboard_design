@@ -16,10 +16,10 @@ class MainScreen extends StatelessWidget {
 
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
+            Flexible(
               child: SideMenu(),
             ),
-            Expanded(
+            Flexible(
                 flex: 6,
                 child: DashboardScreen(),
             ),

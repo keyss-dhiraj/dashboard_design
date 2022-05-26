@@ -27,8 +27,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 40),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
 
               child: Row(
@@ -40,8 +40,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/pilot_icon_gray.png'),
@@ -59,8 +59,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -71,8 +71,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/pilot_icon_green.png'),
@@ -83,7 +83,7 @@ class DashboardCenter extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Active",style: TextStyle(fontSize: 18),),
+                      Text("Active",style: TextStyle(fontSize: 16),),
                       Text("(In Last 30 Days)",style: TextStyle(fontSize: 8),),
                     ],
                   ),
@@ -96,8 +96,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -108,8 +108,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/pilot_icon_orange.png'),
@@ -120,7 +120,7 @@ class DashboardCenter extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Active",style: TextStyle(fontSize: 18),),
+                      Text("Active",style: TextStyle(fontSize: 16),),
                       Text("(Between 30-90 days)",style: TextStyle(fontSize: 8),),
                     ],
                   ),
@@ -133,8 +133,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -145,8 +145,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/pilot_icon_red.png'),
@@ -157,7 +157,7 @@ class DashboardCenter extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("No Active",style: TextStyle(fontSize: 18),),
+                      Text("No Active",style: TextStyle(fontSize: 16),),
                       Text("(From Last 90 days)",style: TextStyle(fontSize: 8),),
                     ],
                   ),
@@ -178,8 +178,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 40),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -191,8 +191,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/battery.png'),
@@ -210,8 +210,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                // mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -223,8 +223,8 @@ class DashboardCenter extends StatelessWidget {
                   // ),
 
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/device_icon_green.png'),
@@ -242,8 +242,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -254,8 +254,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/device_icon_orange.png'),
@@ -273,8 +273,8 @@ class DashboardCenter extends StatelessWidget {
             SizedBox(width: 20,),
             Container(
               padding: EdgeInsets.all(10),
-              height: 50,
-              width: 280,
+              height: MediaQuery.of(context).size.height*0.07,
+              width: MediaQuery.of(context).size.width*0.18,
               color: Colors.white,
               child: Row(
                // mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -285,8 +285,8 @@ class DashboardCenter extends StatelessWidget {
                   //   child: SvgPicture.asset("assets/icons/sound_file.svg"),
                   // ),
                   Container(
-                      width: 40.00,
-                      height: 40.00,
+                      width: MediaQuery.of(context).size.width*0.025,
+                      height: MediaQuery.of(context).size.height*0.050,
                       decoration: new BoxDecoration(
                         image: new DecorationImage(
                           image: ExactAssetImage('assets/images/battery.png'),
